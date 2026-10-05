@@ -1,0 +1,18 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local database
+data/*.duckdb
+data/*.duckdb.wal
+
+# Generated data / backtest results
+data/raw/
+data/processed/
+data/features/
+data/*.csv
+
+# Python cache
+.pytest_cache/
